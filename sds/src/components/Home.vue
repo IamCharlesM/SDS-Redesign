@@ -1,17 +1,24 @@
 <template>
+
 <section class="hero is-dark has-text-centered is-fullheight-with-navbar">
+  
   <div class="hero-body">
     <div class="container animated fadeIn">
+      <div class="columns">
+        <div class="column">
       <p class="title slow">
-        85 years of dedication to the Performing arts.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit
       </p>
       <hr>
-      <p>The purpose of the Sammy Dyer School of the Theatre is to promote the progress of creativity and education in the performing arts as well as to assist children in receiving quality instruction in technique and dance appreciation.
-In addition, we hope to bring together professionals and students interested in performing arts education by providing resources and the opportunity to realize their visions. We hope to preserve and develop the legacy of the African American dance traditions of the mid to late 20th century.</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit labore voluptates dolor distinctio quam accusamus doloremque eum blanditiis, eligendi praesentium assumenda exercitationem recusandae illo esse cupiditate rem. Ducimus, accusamus facere.</p>
+      </div>
+      <div class="column"></div>
+      </div>
     </div>
   </div>
 </section>
 </template>
+
 
 <script>
 export default {
@@ -22,7 +29,7 @@ export default {
 <style scoped>
 .hero-body{
   /* Both are required for the image to appear */
-background-image: url("../assets/wall.jpg") !important ;
+background-image: url("../assets/wall-1.jpg") !important ;
         background-position: center center;
         background-repeat:  no-repeat;
         background-attachment: fixed;
@@ -32,6 +39,10 @@ background-image: url("../assets/wall.jpg") !important ;
 
 .fadeIn {
   animation-duration: 2s;
+}
+
+.column {
+  margin-right: 10% !important; 
 }
 
 </style>

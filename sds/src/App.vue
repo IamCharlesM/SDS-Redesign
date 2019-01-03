@@ -5,8 +5,8 @@
 <!-- <section class="hero is-dark is-medium"> -->
   <!-- Hero head: will stick at the top -->
   <!-- <div class="hero-head"> -->
-    <nav class="navbar is-black">
-      <div class="container">
+    <nav class="navbar ">
+      <div class="container ">
         <div class="navbar-brand">
           <a class="navbar-item">
             <img src="./assets/placeholder.jpg" alt="Logo">
@@ -56,39 +56,57 @@
   <!-- </section> -->
 
     <Home />
+    <Partner />
+    <Staff />
   </div>
 </template>
 
 <script>
-  // import Navbar from './components/Navbar.vue'
+  import Partner from './components/Partner.vue'
   import Home from './components/Home.vue'
-  // import Registration from './components/Registration.vue'
+  import Staff from './components/Staff.vue'
 export default {
   name: 'app',
   components: {
-    // Navbar,
+    Partner,
     Home,
-    // Registration
+    Staff
   }
 }
 </script>
 
 <style scoped>
-/* #app {
-  background-color: black;
-  background-image: url("./assets/wall.jpg") !important;
+#app {
+  background-color: #e12428;
+  background-image: url(/img/wall-1.267faee9.jpg) !important;
   background-size: cover;
-} */
+}
 
 .navbar-dropdown {
   /* background-color: hsl(0, 0%, 21%) */
-  background-color: black
+  background-color: #e12428
 }
 .navbar-dropdown a:hover {
-  color: black !important
+  color: #e12428 !important
 }
 
 .navbar-dropdown a {
   color: white !important
+}
+
+.navbar {
+  background-color: #e12428;
+}
+
+a {
+  color: white !important;
+}
+
+a:hover {
+  color: #e12428 !important;
+}
+
+a:active {
+  color: #e12428;
 }
 </style>
