@@ -7,10 +7,10 @@
       <div class="columns">
         <div class="column">
       <p class="title slow">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit
+        Sammy Dyer School of the Theatre
       </p>
       <hr>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit labore voluptates dolor distinctio quam accusamus doloremque eum blanditiis, eligendi praesentium assumenda exercitationem recusandae illo esse cupiditate rem. Ducimus, accusamus facere.</p>
+      <p>Celebrating 85 Years of service to the Performing Arts.</p>
       </div>
       <div class="column"></div>
       </div>

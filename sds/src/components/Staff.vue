@@ -1,29 +1,19 @@
 <template>
-  <section class="hero has-text-centered ">
-    <div class="hero-body">
-      <p class="title">Lorem</p>
+  <section class="hero has-text-centered is-medium">
+    <div class="hero-body has-text-white">
+      <div class="container animated fadeIn">
       <div class="columns">
-        <div class="column">
-          <figure class="image is-128x128 is-horizontal-center">
-  <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-</figure>
-        </div>
-        <div class="column">
-          <figure class="image is-128x128 is-horizontal-center">
-  <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-</figure>
-        </div>
-        <div class="column">
-          <figure class="image is-128x128 is-horizontal-center">
-  <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-</figure>
-        </div>
-        <div class="column">
-          <figure class="image is-128x128 is-horizontal-center">
-  <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
-</figure>
-        </div>
+        <div class="column"></div>
+        <div class="column bg">
+      <p class="title has-text-white slow">
+        The purpose
+      </p>
+      <hr>
+      <p>The purpose of the Sammy Dyer School of the Theatre is to promote the progress of creativity and education in the performing arts as well as to assist children in receiving quality instruction in technique and dance appreciation.</p>
       </div>
+      
+      </div>
+    </div>
     </div>
   </section>
 </template>
@@ -35,11 +25,19 @@
   }
 </script>
 <style scoped>
-.hero {
-  background-color: whitesmoke
+.hero-body {
+  background-image: url("../assets/bg-blue.jpg") !important;
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  /* color: white */
 }
 
-.columns {
-  margin-left: 10%
+.bg {
+  background-color: #6672ea;
+  
+  
 }
+
 </style>
