@@ -1,5 +1,5 @@
 <template>
-<section class="hero has-text-centered is-white">
+<section class="hero has-text-centered is-white ">
     <div class="hero-body has-text-white">
       <div class="container animated fadeIn">
       <div class="columns">
@@ -26,12 +26,11 @@ export default {
 <style scoped>
 .hero-body {
   /* Both are required for the image to appear */
-        background-image: url("../assets/wall.jpg") !important ;
-        background-position: center center;
-        background-repeat:  no-repeat;
-        background-attachment: fixed;
-        background-size:  cover;
-        /* background-color: #4cb0e8 !important; */
+        /* background-image: url("../assets/ALL NEW-2108.jpg") !important ; */
+        /* background-position: center center; */
+        /* background-repeat:  no-repeat; */
+        /* background-attachment: fixed; */
+        /* background-size:  cover; */
         /* color: black */
 }
 

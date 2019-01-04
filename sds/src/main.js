@@ -2,7 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
+import VueAgile from 'vue-agile'
 
+Vue.use(VueAgile)
 Vue.use(Buefy)
 
 
