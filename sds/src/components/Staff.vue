@@ -1,19 +1,7 @@
 <template>
-  <section class="hero has-text-centered is-medium">
+  <section class="hero has-text-centered is-fullheight">
     <div class="hero-body has-text-white">
-      <div class="container animated fadeIn">
-      <div class="columns">
-        <div class="column"></div>
-        <div class="column bg">
-      <p class="title has-text-white slow">
-        The purpose
-      </p>
-      <hr>
-      <p>The purpose of the Sammy Dyer School of the Theatre is to promote the progress of creativity and education in the performing arts as well as to assist children in receiving quality instruction in technique and dance appreciation.</p>
-      </div>
       
-      </div>
-    </div>
     </div>
   </section>
 </template>
@@ -35,7 +23,8 @@
 }
 
 .bg {
-  background-color: #6672ea;
+  /* background-color: rgba(102, 114, 234,0.9); */
+  /* border-radius: 10px; */
   
   
 }

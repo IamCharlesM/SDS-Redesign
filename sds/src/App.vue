@@ -77,9 +77,9 @@ export default {
 
 <style scoped>
 #app {
-  background-color: #e12428;
-  background-image: url(/img/wall-1.267faee9.jpg) !important;
-  background-size: cover;
+  /* background-color: #e12428; */
+  /* background-image: url(/img/wall-1.267faee9.jpg) !important;
+  background-size: cover; */
 }
 
 .navbar-dropdown {
