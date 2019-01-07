@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: 'Partner',
+  name: 'Splitter',
   
 }
 </script>
@@ -33,6 +33,12 @@ export default {
         background-size:  cover;
         /* background-color: #4cb0e8 !important; */
         /* color: black */
+        
+}
+
+.hero {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
 

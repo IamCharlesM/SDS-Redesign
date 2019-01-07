@@ -57,21 +57,21 @@
   <!-- </section> -->
 
     <Home />
-    <Partner />
-    <Staff />
+    <Splitter />
+    <Action />
   </div>
 </template>
 
 <script>
-  import Partner from './components/Partner.vue'
+  import Splitter from './components/Splitter.vue'
   import Home from './components/Home.vue'
-  import Staff from './components/Staff.vue'
+  import Action from './components/Action.vue'
 export default {
   name: 'app',
   components: {
-    Partner,
+    Action,
     Home,
-    Staff
+    Splitter
   }
 }
 </script>
@@ -109,5 +109,9 @@ a:hover {
 
 a:active {
   color: #e12428;
+}
+
+.navbar-link:not(.is-arrowless)::after {
+  border-color: white
 }
 </style>
