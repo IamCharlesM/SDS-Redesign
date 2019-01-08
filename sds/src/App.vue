@@ -66,12 +66,14 @@
   import Splitter from './components/Splitter.vue'
   import Home from './components/Home.vue'
   import Action from './components/Action.vue'
+  import Staff from './components/Staff.vue'
 export default {
   name: 'app',
   components: {
     Action,
     Home,
-    Splitter
+    Splitter,
+    Staff
   }
 }
 </script>
