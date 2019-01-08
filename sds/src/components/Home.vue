@@ -29,12 +29,11 @@ export default {
 <style scoped>
 .hero-body{
   /* Both are required for the image to appear */
-background-image: url("../assets/wall-1.jpg") !important ;
+background-image:  url("../assets/wall-1.jpg");
         background-position: center center;
         background-repeat:  no-repeat;
         background-attachment: fixed;
         background-size:  cover;
-        background-color: black;
 }
 
 .fadeIn {
