@@ -4,42 +4,51 @@
       <div class="container">
         <div class="columns has-text-white ">
           <div class="column col-1">
-            <p class="title has-text-white ">Class Registration</p>
-            <br>
-            <p class="action-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam deserunt illum, esse aut ducimus
+            <p class="title has-text-white is-size-3">Registration</p>
+
+            <p class="action-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam deserunt illum, esse
+              aut ducimus
               recusandae, deleniti quia quidem voluptatum, fugiat quasi placeat magni rerum? Debitis commodi excepturi
               reiciendis amet eius?</p>
-              <span class="box has-text-centered">
-              <a href="#" class="button is-danger">Register</a>
-              </span>
+
+            <span class="box has-text-centered">
+              <a class="button is-danger">Register</a>
+            </span>
           </div>
           <div class="column col-2 ">
-            <p class="title has-text-white">Class Schedule</p>
-            <br>
-            <p class="action-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis repellat esse sequi facere,
+
+            <p class="title has-text-white">Schedule</p>
+
+            <p class="action-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis repellat esse
+              sequi facere,
               accusantium ratione animi perferendis repellendus hic quis porro quibusdam, error sapiente, aspernatur
               veritatis nisi et autem!</p>
-              <span class="box has-text-centered">
-              <a href="#" class="button is-danger">Schedule</a>
-              </span>
+
+            <span class="box has-text-centered">
+              <router-link to="/schedule"><a class="button is-danger">Schedule</a></router-link>
+            </span>
           </div>
           <div class="column col-3">
-            <p class="title has-text-white">Upcoming Events</p>
-            <br>
-            <p class="action-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, modi pariatur sapiente nemo iusto dicta
+            <p class="title has-text-white">Events</p>
+
+            <p class="action-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, modi pariatur
+              sapiente nemo iusto dicta
               sunt necessitatibus rem saepe sit. Eaque soluta ullam ab magnam mollitia alias explicabo error voluptate.</p>
-              <span class="box has-text-centered">
+
+            <span class="box has-text-centered">
               <a href="#" class="button is-danger">Tickets</a>
-              </span>
+            </span>
           </div>
           <div class="column col-4">
             <p class="title has-text-white">Staff</p>
-            <br>
-            <p class="action-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias eaque ut nesciunt velit molestiae
+
+            <p class="action-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias eaque ut
+              nesciunt velit molestiae
               eius aut architecto illum quas? Laborum eos vitae similique dolores culpa ullam, alias hic vel velit.</p>
-              <span class="box has-text-centered">
-              <a href="#" class="button is-danger">Staff</a>
-              </span>
+
+            <span class="box has-text-centered">
+              <router-link to="/staff"><a class="button is-danger">Staff</a></router-link>
+            </span>
           </div>
         </div>
       </div>
@@ -48,10 +57,12 @@
 </template>
 
 <script>
+
   export default {
-    name: 'Action',
+    name: 'Action'
 
   }
+
 </script>
 <style scoped>
   .hero-body {
@@ -61,7 +72,6 @@
     /* background-attachment: fixed; */
     /* background-size: cover; */
     background-color: #e12428
-    
   }
 
   .bg {
@@ -80,7 +90,7 @@
 
   .column {
     margin: 0.25rem;
-    
+
 
   }
 
@@ -91,21 +101,25 @@
   }
 
   .col-1 {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../assets/col-image-1e.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/col-image-1e.jpg');
     background-size: cover;
-    
-    
+
+
   }
+
   .col-2 {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../assets/col-image-1e.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/col-image-1e.jpg");
     background-size: cover;
   }
+
   .col-3 {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../assets/action-wall.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/action-wall.jpg");
     background-size: cover;
   }
+
   .col-4 {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../assets/action-wall.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/action-wall.jpg");
     background-size: cover;
   }
+
 </style>

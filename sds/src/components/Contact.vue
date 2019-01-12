@@ -5,10 +5,10 @@
       <div class="columns">
         <div class="column bg">
       <p class="title slow">
-        This is the staff page
+        This is the Contact page
       </p>
       <hr>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda laboriosam rerum dicta repudiandae molestias dignissimos ipsam, a facilis atque aliquid ex veniam sit, corrupti dolorum odio ab iste ipsa nostrum.</p>
+      <p class='subtitle'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda laboriosam rerum dicta repudiandae molestias dignissimos ipsam, a facilis atque aliquid ex veniam sit, corrupti dolorum odio ab iste ipsa nostrum.</p>
       </div>
 
       </div>
@@ -20,7 +20,7 @@
 <script>
 
 export default {
-  name: 'Staff',
+  name: 'Contact',
 
 }
 </script>

@@ -1,11 +1,5 @@
 <template>
-
- <div id="app">
-   <link href="https://cdn.jsdelivr.net/npm/animate.css@3.5.1" rel="stylesheet" type="text/css">
-   
-<!-- <section class="hero is-dark is-medium"> -->
-  <!-- Hero head: will stick at the top -->
-  <!-- <div class="hero-head"> -->
+  <div id="app">
     <nav class="navbar ">
       <div class="container ">
         <div class="navbar-brand">
@@ -20,100 +14,79 @@
         </div>
         <div id="navbarMenuHeroA" class="navbar-menu">
           <div class="navbar-end">
-            <a class="navbar-item is-active">
-              Home
-            </a>
-           
-      <a class="navbar-item">
-        Registration
-      </a>
 
-      <a class="navbar-item">
-        Schedule
-      </a>
+            <router-link class="navbar-item is-active" to="/">Home</router-link>
+            <router-link class="navbar-item" to="/registration">Registration</router-link>
+            <router-link class="navbar-item" to="/schedule">Schedule</router-link>
+
             <div class="navbar-item has-dropdown is-hoverable is-boxed ">
-        <a class="navbar-link ">
-          More
-        </a>
+              <a class="navbar-link ">
+                More
+              </a>
 
-        <div class="navbar-dropdown is-boxed ">
-          <a class="navbar-item">
-            Legacy
-          </a>
-          <a class="navbar-item">
-            Staff
-          </a>
-          <a class="navbar-item">
-            Contact Us
-          </a>
-        
-        </div>
-      </div>
+              <div class="navbar-dropdown is-boxed ">
+
+                <router-link class="navbar-item" to="/legacy">Legacy</router-link>
+                <router-link class="navbar-item" to="/staff">Staff</router-link>
+                <router-link class="navbar-item" to="Contact">Contact Us</router-link>
+
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </nav>
-  <!-- </div> -->
-  <!-- </section> -->
-
-    <Home />
-    <Splitter />
-    <Action />
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-  import Splitter from './components/Splitter.vue'
-  import Home from './components/Home.vue'
-  import Action from './components/Action.vue'
-  import Staff from './components/Staff.vue'
-export default {
-  name: 'app',
-  components: {
-    Action,
-    Home,
-    Splitter,
-    Staff
+  export default {
+    name: 'App'
   }
-}
+
 </script>
 
-<style scoped>
-#app {
-  /* background-color: #e12428; */
-  /* background-image: url(/img/wall-1.267faee9.jpg) !important;
-  background-size: cover; */
-}
+<style>
+  #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+  }
 
-.navbar-dropdown {
-  /* background-color: hsl(0, 0%, 21%) */
-  background-color: #fddfe0
-}
-.navbar-dropdown a:hover {
-  color: #e12428 !important
-}
+  .navbar-dropdown {
+    /* background-color: hsl(0, 0%, 21%) */
+    background-color: #fddfe0
+  }
 
-.navbar-dropdown a {
-  color: white !important
-}
+  .navbar-dropdown a:hover {
+    color: #e12428 !important
+  }
 
-.navbar {
-  background-color: #e12428;
-}
+  .navbar-dropdown a {
+    color: white !important
+  }
 
-a {
-  color: white !important;
-}
+  .navbar {
+    background-color: #e12428;
+  }
 
-a:hover {
-  color: #e12428 !important;
-}
+  a {
+    color: white !important;
+  }
 
-a:active {
-  color: #e12428;
-}
+  a:hover {
+    color: #e12428 !important;
+  }
 
-.navbar-link:not(.is-arrowless)::after {
-  border-color: white
-}
+  a:active {
+    color: #e12428;
+  }
+
+  .navbar-link:not(.is-arrowless)::after {
+    border-color: white
+  }
+
 </style>
