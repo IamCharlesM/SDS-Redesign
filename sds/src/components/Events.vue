@@ -1,40 +1,47 @@
 <template>
-<section class="hero has-text-centered is-white ">
-    <div class="hero-body has-text-white">
-      <div class="container animated fadeIn">
-      <div class="columns">
-        <div class="column bg">
-      <p class="title slow">
-        This is the Events page
-      </p>
-      <hr>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda laboriosam rerum dicta repudiandae molestias dignissimos ipsam, a facilis atque aliquid ex veniam sit, corrupti dolorum odio ab iste ipsa nostrum.</p>
-      </div>
+  <section>
+        <div class="columns">
+          <div class="column is-one-third hero is-fullheight is-paddingless is-marginless">
+            <div class="hero-body hero-body ">
+              <div class="container">
+                <p class="title has-text-white">Lorem ipsum</p>
+                <p class="subtitle slow has-text-white">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, necessitatibus. Eum voluptatum odio eius vero, in saepe id inventore tempore facere, cupiditate a adipisci voluptate, hic nam sunt sapiente accusantium!
+            </p>
+            <a class="button is-primary is-inverted is-outlined">TICKETS AVAILABLE SOON</a>
+            </div>
+            </div>
+          </div>
 
-      </div>
-    </div>
-    </div>
+          <div class="column wall-1">
+
+          </div>
+
+        </div>
   </section>
 </template>
 
 <script>
+  export default {
+    name: 'Events',
 
-export default {
-  name: 'Events',
+  }
 
-}
 </script>
 <style scoped>
-.hero-body {
-  /* Both are required for the image to appear */
-        /* background-image: url("../assets/ALL NEW-2108.jpg") !important ; */
-        /* background-position: center center; */
-        /* background-repeat:  no-repeat; */
-        /* background-attachment: fixed; */
-        /* background-size:  cover; */
-        /* color: black */
-}
+  .hero-body {
+    /* Both are required for the image to appear */
+    /* background-image: url("../assets/ALL NEW-2108.jpg") !important ; */
+    /* background-position: center center; */
+    /* background-repeat:  no-repeat; */
+    /* background-attachment: fixed; */
+    background-color:  #e12428;
+    /* color: black */
+  }
 
-
+  .wall-1 {
+    background-image: url('../assets/wall.jpg');
+    background-size: cover;
+  }
 
 </style>

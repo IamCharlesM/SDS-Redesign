@@ -4,11 +4,8 @@
       <div class="container animated fadeIn">
       <div class="columns">
         <div class="column bg">
-      <p class="title slow">
-        This is the Schedule page
-      </p>
-      <hr>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda laboriosam rerum dicta repudiandae molestias dignissimos ipsam, a facilis atque aliquid ex veniam sit, corrupti dolorum odio ab iste ipsa nostrum.</p>
+          <p class="title">2018-2019 Class Schedule</p>
+      <img src="../assets/placeholder.jpg" alt="">
       </div>
 
       </div>
