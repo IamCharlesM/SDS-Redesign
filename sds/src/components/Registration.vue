@@ -4,11 +4,12 @@
       <div class="container animated fadeIn">
       <div class="columns">
         <div class="column bg">
-      <p class="title slow">
-        This is the Registration page
+      <p class="title">Register</p>
+      <img src="../assets/placeholder.jpg" alt="">
+      <p class="subtitle">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat ut pariatur nam eligendi soluta id qui. Enim quas cupiditate architecto quia eaque, nostrum sed dolor expedita ratione. Rerum, voluptas laborum!
+        <br>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, reprehenderit. Officiis optio voluptas voluptate quisquam odio ex dolorum dignissimos repudiandae fuga ipsa a cupiditate quis, odit sint deleniti quos cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ipsam corrupti similique quas, soluta quisquam eos excepturi doloribus et alias veritatis laboriosam! Aut repellat, quia quae iusto fugiat sequi eius.
       </p>
-      <hr>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda laboriosam rerum dicta repudiandae molestias dignissimos ipsam, a facilis atque aliquid ex veniam sit, corrupti dolorum odio ab iste ipsa nostrum.</p>
       </div>
 
       </div>

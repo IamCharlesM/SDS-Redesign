@@ -4,7 +4,7 @@
       <div class="container animated fadeIn">
       <div class="columns">
         <div class="column bg">
-          <p class="title">2018-2019 Class Schedule</p>
+           <p class="title">2018-2019 Class Schedule</p>
       <img src="../assets/placeholder.jpg" alt="">
       </div>
 
