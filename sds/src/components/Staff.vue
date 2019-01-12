@@ -2,19 +2,55 @@
 <section class="hero has-text-centered is-white ">
     <div class="hero-body has-text-white">
       <div class="container animated fadeIn">
-      <div class="columns">
-        <div class="column bg">
-      <p class="title slow">
-        This is the staff page
-      </p>
-      <hr>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda laboriosam rerum dicta repudiandae molestias dignissimos ipsam, a facilis atque aliquid ex veniam sit, corrupti dolorum odio ab iste ipsa nostrum.</p>
-      </div>
+        <div class="columns">
+          <div class="column bg">
+            <p class="title slow">
+              Our Staff
+            </p>
+            <hr>
+            <div class="columns">
 
+              <div class="column">
+
+                <div class="image is-128x128 is-centered">
+                  <img src="../assets/placeholder.jpg">
+                </div>
+                <br>
+                <p class="title is-size-5">Lorem ipsum</p>
+                <p class="subtitle">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam veritatis dolor illo quidem eius excepturi. Similique nisi fugit quos nihil odio qui officiis id nobis? Veritatis tempore dignissimos autem omnis!
+                </p>
+              </div>
+              <div class="column">
+
+                <div class="image is-128x128 is-centered">
+                  <img src="../assets/placeholder.jpg">
+                </div>
+                <br>
+                <p class="title is-size-5">Lorem ipsum</p>
+                <p class="subtitle">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam veritatis dolor illo quidem eius excepturi. Similique nisi fugit quos nihil odio qui officiis id nobis? Veritatis tempore dignissimos autem omnis!
+                </p>
+              </div>
+              <div class="column">
+
+                <div class="image is-128x128 is-centered">
+                  <img src="../assets/placeholder.jpg">
+                </div>
+                <br>
+                <p class="title is-size-5">Lorem ipsum</p>
+                <p class="subtitle">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam veritatis dolor illo quidem eius excepturi. Similique nisi fugit quos nihil odio qui officiis id nobis? Veritatis tempore dignissimos autem omnis!
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
       </div>
     </div>
-    </div>
-  </section>
+</section>
 </template>
 
 <script>
@@ -25,6 +61,10 @@ export default {
 }
 </script>
 <style scoped>
+.image {
+    margin: 0 auto;
+  }
+  
 .hero-body {
   /* Both are required for the image to appear */
         /* background-image: url("../assets/ALL NEW-2108.jpg") !important ; */
