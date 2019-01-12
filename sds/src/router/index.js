@@ -6,6 +6,7 @@ import Legacy from '@/components/Legacy'
 import Contact from '@/components/Contact'
 import Registration from '@/components/Registration'
 import Schedule from '@/components/Schedule'
+import Events from '@/components/Events'
 
 Vue.use(Router)
 
@@ -40,6 +41,11 @@ export default new Router({
       path: '/schedule',
       name: 'Schedule',
       component: Schedule
+    },
+    {
+      path: '/events',
+      name: 'Events',
+      component: Events
     },
   ]
 })

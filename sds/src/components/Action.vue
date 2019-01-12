@@ -12,7 +12,7 @@
               reiciendis amet eius?</p>
 
             <span class="box has-text-centered">
-              <a class="button is-danger">Register</a>
+              <router-link to="/registration"><a class="button is-danger">Register</a></router-link>
             </span>
           </div>
           <div class="column col-2 ">
@@ -36,7 +36,7 @@
               sunt necessitatibus rem saepe sit. Eaque soluta ullam ab magnam mollitia alias explicabo error voluptate.</p>
 
             <span class="box has-text-centered">
-              <a href="#" class="button is-danger">Tickets</a>
+              <router-link to="/events"><a class="button is-danger">Tickets</a></router-link>
             </span>
           </div>
           <div class="column col-4">
@@ -108,17 +108,17 @@
   }
 
   .col-2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/col-image-1e.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/col-image-2e.jpg");
     background-size: cover;
   }
 
   .col-3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/action-wall.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/col-image-4e.jpg");
     background-size: cover;
   }
 
   .col-4 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/action-wall.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/col-image-3e.jpg");
     background-size: cover;
   }
 

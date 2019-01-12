@@ -28,7 +28,8 @@
 
                 <router-link class="navbar-item" to="/legacy">Legacy</router-link>
                 <router-link class="navbar-item" to="/staff">Staff</router-link>
-                <router-link class="navbar-item" to="Contact">Contact Us</router-link>
+                <router-link class="navbar-item" to="/contact">Contact Us</router-link>
+                <router-link class="navbar-item" to="/events">Events</router-link>
 
               </div>
             </div>
@@ -58,7 +59,7 @@
 
   .navbar-dropdown {
     /* background-color: hsl(0, 0%, 21%) */
-    background-color: #fddfe0
+    background-color: #e12428
   }
 
   .navbar-dropdown a:hover {
