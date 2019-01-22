@@ -71,7 +71,7 @@
   }
 
   .navbar {
-    background-color: #e12428;
+    background-color: #e12428 !important;
   }
 
   a {
