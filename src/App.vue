@@ -59,7 +59,7 @@
 
   .navbar-dropdown {
     /* background-color: hsl(0, 0%, 21%) */
-    background-color: #e12428
+    background-color: #e12428 !important;
   }
 
   .navbar-dropdown a:hover {
