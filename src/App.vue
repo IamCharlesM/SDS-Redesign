@@ -6,16 +6,16 @@
           <a class="navbar-item">
             <img src="./assets/placeholder.jpg" alt="Logo">
           </a>
-          <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+          <span class="navbar-burger burger" data-target="navbarMenuHeroA" aria-label="menu" aria-expanded="false" @click="isOpen = !isOpen" v-bind:class="{'is-active': isOpen}">
             <span></span>
             <span></span>
             <span></span>
           </span>
         </div>
-        <div id="navbarMenuHeroA" class="navbar-menu">
+        <div id="navbarMenuHeroA" class="navbar-menu" v-bind:class="{'is-active': isOpen}" >
           <div class="navbar-end">
 
-            <router-link class="navbar-item is-active" to="/">Home</router-link>
+            <router-link class="navbar-item" to="/">Home</router-link>
             <router-link class="navbar-item" to="/registration">Registration</router-link>
             <router-link class="navbar-item" to="/schedule">Schedule</router-link>
 
@@ -44,7 +44,12 @@
 
 <script>
   export default {
-    name: 'App'
+    name: 'App',
+    data: function() {
+        return {
+            isOpen: false
+        }
+    }
   }
 
 </script>
@@ -89,6 +94,10 @@
 
   .navbar-link:not(.is-arrowless)::after {
     border-color: white
+  }
+
+  .is-active {
+    background-color: #e12428 !important;
   }
 
 </style>
