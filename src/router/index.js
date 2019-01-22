@@ -7,6 +7,7 @@ import Contact from '@/components/Contact'
 import Registration from '@/components/Registration'
 import Schedule from '@/components/Schedule'
 import Events from '@/components/Events'
+import Gallery from '@/components/Gallery'
 
 Vue.use(Router)
 
@@ -47,6 +48,11 @@ export default new Router({
       path: '/events',
       name: 'Events',
       component: Events
+    },
+    {
+      path: '/gallery',
+      name: 'Gallery',
+      component: Gallery
     },
   ]
 })
