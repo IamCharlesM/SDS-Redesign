@@ -8,6 +8,8 @@ import Registration from '@/components/Registration'
 import Schedule from '@/components/Schedule'
 import Events from '@/components/Events'
 import Gallery from '@/components/Gallery'
+import Past from '@/components/Past'
+import Present from '@/components/Present'
 
 Vue.use(Router)
 
@@ -53,6 +55,16 @@ export default new Router({
       path: '/gallery',
       name: 'Gallery',
       component: Gallery
+    },
+    {
+      path: '/legacy/past',
+      name: 'Past',
+      component: Past
+    },
+    {
+      path: '/legacy/present',
+      name: 'Pressent',
+      component: Present
     },
   ]
 })

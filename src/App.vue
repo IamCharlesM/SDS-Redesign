@@ -24,7 +24,7 @@
                 More
               </a>
 
-              <div class="navbar-dropdown is-boxed ">
+              <div class="navbar-dropdown is-boxed" >
 
                 <router-link class="navbar-item" to="/legacy">Legacy</router-link>
                 <router-link class="navbar-item" to="/staff">Staff</router-link>
